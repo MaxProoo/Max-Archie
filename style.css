@@ -1,0 +1,21 @@
+<style>
+        body {
+            background-color: #cfb1ce;
+            padding-top: 15px;
+            display: block;
+            margin-left: 450px;
+            margin-right: auto;
+         }
+        
+
+        .bod {
+            background-color: #b84ab2;
+            width: min-content;
+        }
+
+        img {
+            margin-left: 35px;
+            height: 400px;
+            width: min-content;
+        }
+</style>
