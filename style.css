@@ -1,21 +1,24 @@
-<style>
-        body {
-            background-color: #cfb1ce;
-            padding-top: 15px;
-            display: block;
-            margin-left: 450px;
-            margin-right: auto;
-         }
-        
+body {
+    
+ }
 
-        .bod {
-            background-color: #b84ab2;
-            width: min-content;
-        }
 
-        img {
-            margin-left: 35px;
-            height: 400px;
-            width: min-content;
-        }
-</style>
+.bod {
+    background-color: rgb(119, 39, 39);
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+img {
+    border-radius: 20px;
+    margin-left: 35px;
+    height: 250px;
+    width: min-content;
+}
+
+h1 {
+    margin-top: 20px ;
+    margin-left: 35px;
+    margin-bottom: 35px; 
+    color: rgb(85, 26, 26);
+}
