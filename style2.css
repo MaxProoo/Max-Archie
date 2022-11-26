@@ -1,0 +1,44 @@
+body {
+    animation-name: pp3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pp3 {
+    from {
+        background: #bfbfbf;
+        color: white;
+    }
+    to {
+        background: #6d91cd;
+        color: #0035ff;
+    }
+}
+
+.bod {
+    background-color: #627fe8;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+img {
+    border-radius: 20px;
+    margin-left: 35px;
+    height: 250px;
+    width: auto;
+    margin-bottom: 0px;
+}
+
+.contImg1 {
+
+}
+.img1 {
+
+}
+
+h1 {
+    margin-top: 20px ;
+    margin-left: 35px;
+    margin-bottom: 35px;
+    color: rgb(85, 26, 26);
+}
