@@ -4,14 +4,16 @@ body {
     animation-iteration-count: infinite;
 }
 
+h1 {
+    color: white;
+}
+
 @keyframes pp3 {
     from {
         background: #bfbfbf;
-        color: white;
     }
     to {
         background: #6d91cd;
-        color: white;
     }
 }
 
