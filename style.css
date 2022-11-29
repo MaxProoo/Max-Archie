@@ -1,17 +1,21 @@
+/*background-color: #c23c3c;*/
+/*background: #c23c3c;*/
+/*background: white;*/
+/*background-color: rgb(119, 39, 39)*/
+/*color: rgb(85, 26, 26)*/
 body {
-    animation-name: pp2;
+    animation-name: pp3;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
- }
+    animation-iteration-count: initial;
+    background-color: #c23c3c;
+}
 
-@keyframes pp2 {
+@keyframes pp3 {
     from {
-        background: #c23c3c;
-        color: white;
+        background: #bfbfbf;
     }
     to {
-        background: white;
-        color: #c23c3c;
+        background-color: #c23c3c;
     }
 }
 
@@ -23,10 +27,10 @@ body {
 
 img {
     border-radius: 20px;
-    margin-left: 35px;
-    height: 250px;
-    width: auto;
-    margin-bottom: 20px;
+    margin-left: 20%;
+    width: 60%;
+    margin-right: 20%;
+    margin-bottom: 0;
 }
 
 .contImg1 {
@@ -36,23 +40,57 @@ img {
 
 }
 
+.header2 {
+    animation-name: pp2, pp1;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
+    background-color: #bfbfbf;
+    border-radius: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+@keyframes pp2 {
+    from {
+
+        background: #6d91cd;
+    }
+    to {
+
+        background: #bfbfbf;
+    }
+}
+
+@keyframes pp1 {
+    from {
+        opacity: 0;
+        border-radius: 100%;
+    }
+    to{
+        opacity: 1;
+        border-radius: 20%;
+    }
+}
+
 h1 {
     margin-top: 20px ;
     margin-left: 35px;
-    margin-bottom: 10px;
-    color: rgb(85, 26, 26);
+    color: rgb(85, 26, 26)
 }
 
 button {
-    margin-left: 35px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    background-color: rgb(119, 39, 39);
-    border: none;
-    color: white;
+    display: block;
+    animation-name: pp3, pp1;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
+    margin: 10px auto;
+    border-radius: 20%;
+    background-color: #c23c3c;
+    /*border: none;*/
+    /*color: white;*/
     padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+    /*display: inline-block;*/
+    /*font-size: 16px;*/
 }
